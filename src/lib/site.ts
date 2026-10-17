@@ -37,8 +37,8 @@ export const site = {
   contacts: {
     phoneDisplay: "+375 (29) 712-34-56",
     phoneHref: "tel:+375297123456",
-    telegram: "https://t.me/kvarta_minsk",
-    telegramLabel: "@kvarta_minsk",
+    telegram: "https://t.me/kvarta_minsk_bot",
+    telegramLabel: "@kvarta_minsk_bot",
     instagram: "https://www.instagram.com/kvarta.coffee",
     instagramLabel: "@kvarta.coffee",
     email: "hello@kvarta.by",
