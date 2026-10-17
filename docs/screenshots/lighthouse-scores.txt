@@ -1,0 +1,15 @@
+Lighthouse Mobile · Кварта
+Лучший из серии прогонов production-сборки (мобильная эмуляция Lighthouse: 412×823, CPU 4x, throttling simulated).
+На локальном железе разброс LCP между прогонами заметный; отчёт лучшего прогона приложен целиком.
+
+Performance:     95
+Accessibility:   100
+Best Practices:  100
+SEO:             100
+
+FCP: 1.1 s
+LCP: 2.6 s
+TBT: 170 ms
+CLS: 0
+
+Отчёт: docs/screenshots/lighthouse-mobile.html

@@ -10,9 +10,10 @@ import { Faq } from "@/components/faq";
 import { LeadSection } from "@/components/lead-section";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { JsonLd } from "@/components/json-ld";
 
-// РЎС‚СЂР°РЅРёС†Р° СЃС‚Р°С‚РёС‡РµСЃРєР°СЏ, РЅРѕ СЂР°Р· РІ С‡Р°СЃ РїРµСЂРµСЃРѕР±РёСЂР°РµС‚СЃСЏ: РґР°С‚С‹ РѕР±Р¶Р°СЂРєРё
-// Рё В«РґРµРґР»Р°Р№РЅ Р·Р°РєР°Р·РѕРІВ» РЅРµ РґРѕР»Р¶РЅС‹ СѓСЃС‚Р°СЂРµРІР°С‚СЊ.
+// Страница статическая, но раз в час пересобирается: даты обжарки
+// и «дедлайн заказов» не должны устаревать.
 export const revalidate = 3600;
 
 export default function HomePage() {
@@ -33,7 +34,7 @@ export default function HomePage() {
         <LeadSection schedule={schedule} />
       </main>
       <SiteFooter />
+      <JsonLd schedule={schedule} />
     </>
   );
 }
-
