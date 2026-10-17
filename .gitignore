@@ -1,0 +1,36 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+/build
+next-env.d.ts
+
+# production
+*.tsbuildinfo
+
+# local env files (real secrets never go to git)
+.env*
+!.env.example
+
+# local runtime data (leads written to disk in local dev)
+/.data/
+/tmp/
+/.tmp/
+
+# tooling caches
+/eslintcache
+/.vercel
+/.turbo
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# os
+.DS_Store
+Thumbs.db

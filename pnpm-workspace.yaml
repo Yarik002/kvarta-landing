@@ -1,0 +1,15 @@
+# Настройки pnpm (pnpm 11 читает их отсюда, а не из package.json).
+allowBuilds:
+  unrs-resolver: true
+
+minimumReleaseAgeExclude:
+  - eslint@10.13.0
+  - lucide-react@1.59.0
+
+# Разрешаем нативные postinstall-скрипты только этим пакетам:
+# sharp — оптимизация изображений next/image, oxide — движок Tailwind, esbuild — тесты.
+onlyBuiltDependencies:
+  - "@tailwindcss/oxide"
+  - esbuild
+  - sharp
+  - unrs-resolver
