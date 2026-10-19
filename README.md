@@ -1,10 +1,17 @@
 # Кварта — лендинг крафтовой обжарки
 
-Тестовое задание VitAi World · Junior Developer (AI-assisted).
-Стек: **Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · lucide-react · Telegram Bot API**.
-Клиент вымышленный: обжарка «Кварта», Минск. Контакты, адрес и соцсети — демонстрационные (см. «Допущения»).
+[![CI](https://github.com/Yarik002/kvarta-landing/actions/workflows/ci.yml/badge.svg)](https://github.com/Yarik002/kvarta-landing/actions/workflows/ci.yml)
+[![Demo](https://img.shields.io/badge/Demo-Vercel-black?logo=vercel)](https://kvarta-landing-psi.vercel.app/)
+![Next.js 16](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-4-38bdf8?logo=tailwindcss)
 
-Репозиторий: https://github.com/Yarik002/kvarta-landing
+Тестовое задание VitAi World · Junior Developer (AI-assisted).  
+Стек: **Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · lucide-react · Telegram Bot API**.  
+Клиент вымышленный: обжарка «Кварта», Минск. Контакты, адрес и соцсети — демонстрационные (см. «Допущения»).  
+
+* **Live Demo:** [https://kvarta-landing-psi.vercel.app](https://kvarta-landing-psi.vercel.app)
+* **Репозиторий:** [https://github.com/Yarik002/kvarta-landing](https://github.com/Yarik002/kvarta-landing)
 
 - **Lighthouse Mobile:** **95 / 100** (Accessibility 100, Best practices 100, SEO 100; FCP 1.1 s, LCP 2.6 s, TBT 170 ms, CLS 0) — отчёт `docs/screenshots/lighthouse-mobile.html`, сводка `docs/screenshots/lighthouse-scores.txt`. Это лучший из серии прогонов: на локальном железе TBT/LCP заметно гуляют (один и тот же билд даёт 77–95), поэтому замер стоит вынести в CI.
 - **Скриншоты** десктопа/мобильного: `docs/screenshots/` (индекс — `docs/screenshots/README.md`)
